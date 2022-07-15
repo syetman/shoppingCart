@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    /* this will auto adjust the box model */
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html,
+body {
+    /* stretch content to entire page */
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    /*The ul will leave a white top margin unless removed*/
+    margin: 0;
+}
+
+.nav li {
+    /* put elements on the same line */
+    display: inline;
+}
+
+.nav a {
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    /* when hovering over a link the background turns grey */
+    background-color: rgba(255, 255, 255, 30%);
+}
+
+.main-nav {
+    /* format the main nav element */
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.main-nav li {
+    /* format the main nav li gap to be responsive*/
+    padding: 0 5%;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(./images/guitarPlayer.png);
+
+    /* background-color and image won't work at the same time, use blend-mode to blend them */
+    background-blend-mode: multiply;
+    /* Tell the image to cover the top, this will make the image responsive */
+    background-size: cover; 
+    padding-bottom: 30px;
+
+}
