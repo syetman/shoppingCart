@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+@font-face {
+    font-family: 'archery_black';
+    src: url('./fonts/SF_Archery_Black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 * {
     /* this will auto adjust the box model */
@@ -13,6 +22,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+////////* Header styling */////////
 
 .nav ul {
     /*The ul will leave a white top margin unless removed*/
@@ -58,4 +69,75 @@ body {
     background-size: cover; 
     padding-bottom: 30px;
 
+}
+
+.band-name {
+    /* style the band name title */
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'archery_black';
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large {
+    /* make the band name font bigger */
+    font-size: 6rem;
+}
+
+.content-section {
+    margin: 1em;
+
+}
+
+.container {
+    max-width: 900px;
+    /* Center the text and give some padding*/
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: 'Metal Mania';
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+
+    /* Put space between image and text */
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-color: #56ccf2;
+    columns: white;
+    padding: .23em 0;
+
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
 }

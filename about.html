@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>The Guitar Player | ABOUT</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="nav main-nav">
             <ul>
-                <li>HOME</li>
-                <li>STORE</li>
-                <li>ABOUT</li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>                
             </ul>
         </nav>
-        <hr> 
-        <h1>The Guitar Player</h1>
+        
+        <h1 class="band-name band-name-large">The Guitar Player</h1>
         <button>Get Out Latest Album</button>
         <br>
         <br>
@@ -26,10 +26,15 @@
         <button type="button">&#9658;</button> <!--unicode button, use decimal-->
     </header>
 
-    <section>
-        <h2>ABOUT</h2>
-        <p>Here's a bunch of stuff for the about page</p>
-        <img src="./images/guitarPlayer.png" alt="Guitar player">
+    <section class="content-section container">
+        <h2 class="section-header">ABOUT</h2>
+        <img class="about-band-image" src="./images/guitarPlayer.png" alt="Guitar player">
+        <p>Est placerat in egestas erat. Viverra suspendisse potenti nullam ac. Gravida arcu ac tortor dignissim convallis aenean et tortor. Velit ut tortor pretium viverra suspendisse potenti nullam. Amet mauris commodo quis imperdiet massa tincidunt nunc. Aliquam nulla facilisi cras fermentum. Non diam phasellus vestibulum lorem. Erat imperdiet sed euismod nisi porta lorem. Tellus elementum sagittis vitae et leo duis ut diam. Blandit libero volutpat sed cras ornare arcu dui vivamus arcu. Vitae et leo duis ut. Sed euismod nisi porta lorem. Blandit aliquam etiam erat velit scelerisque. Nisi est sit amet facilisis magna etiam. Malesuada fames ac turpis egestas integer eget aliquet. Ante in nibh mauris cursus mattis. Aenean euismod elementum nisi quis eleifend quam adipiscing.          
+            Ipsum consequat nisl vel pretium lectus quam id leo. Egestas dui id ornare arcu odio ut. Non enim praesent elementum facilisis. Neque vitae tempus quam pellentesque nec. Id aliquet lectus proin nibh nisl condimentum id. Vehicula ipsum a arcu cursus. Donec massa sapien faucibus et. Nisl rhoncus mattis rhoncus urna neque viverra. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Gravida quis blandit turpis cursus. Adipiscing bibendum est ultricies integer quis auctor elit sed. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Maecenas ultricies mi eget mauris. Lacus sed turpis tincidunt id aliquet risus feugiat in. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Consectetur adipiscing elit ut aliquam purus. Ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia. Elementum nisi quis eleifend quam adipiscing vitae.</p>
+        
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies tristique nulla aliquet enim tortor. Egestas fringilla phasellus faucibus scelerisque eleifend. Est placerat in egestas erat imperdiet sed euismod nisi. Cras pulvinar mattis nunc sed blandit libero volutpat sed. Mattis nunc sed blandit libero volutpat sed cras. Sit amet consectetur adipiscing elit ut. Sodales ut eu sem integer vitae justo eget magna fermentum. Natoque penatibus et magnis dis parturient. Morbi tristique senectus et netus et malesuada fames.
+            Est placerat in egestas erat. Viverra suspendisse potenti nullam ac. Gravida arcu ac tortor dignissim convallis aenean et tortor. Velit ut tortor pretium viverra suspendisse potenti nullam. Amet mauris commodo quis imperdiet massa tincidunt nunc. Aliquam nulla facilisi cras fermentum. Non diam phasellus vestibulum lorem. Erat imperdiet sed euismod nisi porta lorem. Tellus elementum sagittis vitae et leo duis ut diam. Blandit libero volutpat sed cras ornare arcu dui vivamus arcu. Vitae et leo duis ut. Sed euismod nisi porta lorem. Blandit aliquam etiam erat velit scelerisque. Nisi est sit amet facilisis magna etiam. Malesuada fames ac turpis egestas integer eget aliquet. Ante in nibh mauris cursus mattis. Aenean euismod elementum nisi quis eleifend quam adipiscing.          
+            Ipsum consequat nisl vel pretium lectus quam id leo. Egestas dui id ornare arcu odio ut. Non enim praesent elementum facilisis. Neque vitae tempus quam pellentesque nec. Id aliquet lectus proin nibh nisl condimentum id. Vehicula ipsum a arcu cursus. Donec massa sapien faucibus et. Nisl rhoncus mattis rhoncus urna neque viverra. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Gravida quis blandit turpis cursus. Adipiscing bibendum est ultricies integer quis auctor elit sed. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Maecenas ultricies mi eget mauris. Lacus sed turpis tincidunt id aliquet risus feugiat in. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus. Consectetur adipiscing elit ut aliquam purus. Ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia. Elementum nisi quis eleifend quam adipiscing vitae.</p>
         <h2>TOURS</h2>
         <div>
             <div>
@@ -74,23 +79,25 @@
         </div>
     </section>
 
-    <footer>
-        <h3>The Guitar Player</h3>
-        <ul>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+        <h3 class="band-name">The Guitar Player</h3>
+        <ul class="nav footer-nav">
             <li>
                 <a href="https://youtube.com" target="_blank">
-                    <img src="./images/youtubeLogo.png" alt="YouTube Logo"></li>
+                    <img class="image-resize" src="./images/youtubeLogo.png"></li>
                 </a>
             <li>
                 <a href="https://spotify.com" target="_blank">
-                    <img src="./images/spotifylogo.png" alt="Spotify Logo"></li>
+                    <img src="./images/spotifylogo.png"></li>
                 </a>                
             <li>
                 <a href="https://facebook.com" target="_blank">
-                    <img src="./images/facebookLogo.png" alt="Facebook Logo">
+                    <img src="./images/facebookLogo.png">
                 </a>
             </li>
         </ul>
+    </div>
     </footer>
 </body>
 </html>
